@@ -1,0 +1,32 @@
+# Sample Alert Audio File
+
+This is a placeholder for your custom alert audio file.
+
+## To add your custom alert sound:
+
+1. Replace this file with your actual audio file
+2. Name it: alert1.mp3, alert1.wav, or alert1.ogg
+3. Make sure it's 10 seconds long
+4. The system will automatically detect and use it
+
+## Supported file names:
+- alert1.mp3, alert1.wav, alert1.ogg
+- alert2.mp3, alert2.wav, alert2.ogg  
+- alert3.mp3, alert3.wav, alert3.ogg
+- alert.mp3, alert.wav, alert.ogg
+- alarm.mp3, alarm.wav, alarm.ogg
+- warning.mp3, warning.wav, warning.ogg
+
+## File requirements:
+- Format: MP3, WAV, or OGG
+- Length: 10 seconds (recommended)
+- Quality: Clear and audible
+- Volume: Appropriate level (not too loud/quiet)
+
+The progressive alert system will use these files in sequence:
+- First alert: 10 seconds
+- Second alert: 30 seconds  
+- Third alert: 50 seconds
+- Fourth alert: 70 seconds
+- Then increases by 20 seconds each time
+
