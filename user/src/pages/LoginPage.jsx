@@ -18,7 +18,7 @@ const LoginPage = ({ onLogin, onNavigate }) => {
     setIsLoading(true);
     setStatus("logging in...");
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_BASE || "http://localhost:4000"}/api/auth/login`, {
+      const res = await fetch(`${import.meta.env.VITE_API_BASE || "https://deploy-4f2g.onrender.com"}/api/auth/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),

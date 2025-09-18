@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:4000";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://deploy-4f2g.onrender.com";
 
 export default function Dashboard() {
   const [status, setStatus] = useState("idle");

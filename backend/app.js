@@ -20,7 +20,7 @@ const app = express();
 app.use(cors({
 origin: [
 process.env.FRONTEND_URL || 'https://servonixadmin.netlify.app',
-'http://localhost:5173',
+'https://servonix.netlify.app',
 'http://localhost:3000'
 ],
 credentials: true,
