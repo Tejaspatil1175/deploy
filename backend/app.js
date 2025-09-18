@@ -19,7 +19,7 @@ const app = express();
 // Middleware call hotat 
 app.use(cors({
 origin: [
-process.env.FRONTEND_URL || 'http://localhost:8081',
+process.env.FRONTEND_URL || 'https://servonixadmin.netlify.app',
 'http://localhost:5173',
 'http://localhost:3000'
 ],
