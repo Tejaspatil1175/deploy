@@ -20,8 +20,8 @@ const app = express();
 app.use(cors({
   origin: [
      process.env.FRONTEND_URL,
-    process.env.USER_FRONTEND_URL,
-    'http://localhost:3000'
+    process.env.USER_FRONTEND_URL||
+    'http://localhost:5173'
   ],
 credentials: true,
 methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
