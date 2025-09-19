@@ -327,34 +327,6 @@ const disasters = await fetch('/api/disasters/nearby', {
 - **Frontend**: Vercel, Netlify, GitHub Pages
 - **Database**: MongoDB Atlas, AWS DocumentDB
 
-## 🤝 Contributing
 
-We welcome contributions to SafeZone! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
-
-### Development Workflow
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📞 Support
-
-For support and questions:
-- **Documentation**: Check individual README files in each directory
-- **Issues**: Create a GitHub issue
-- **Discussions**: Use GitHub Discussions for feature requests
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-<div align="center">
-
-**Built with ❤️ for disaster preparedness and community safety**
-
-![Footer Image](https://via.placeholder.com/800x200/1F2937/FFFFFF?text=SafeZone+-+Protecting+Communities+Through+Technology)
 
 </div>
